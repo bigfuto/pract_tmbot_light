@@ -3,10 +3,6 @@ import telegram
 import requests
 import time
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 bot = telegram.Bot(token=os.getenv('TELEGRAM_TOKEN'))
 
